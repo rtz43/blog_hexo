@@ -22,7 +22,7 @@ rss:
 
 # MathJax
 mathjax:
-  enable: false
+  enable: true
   # cnd: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.min.js
 
 # KaTeX

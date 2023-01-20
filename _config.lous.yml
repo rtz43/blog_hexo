@@ -33,7 +33,7 @@ mathjax:
 # 安装完成后执行清理命令：
 # $ hexo clean
 katex:
-  enable: true
+  enable: false
   cdn: https://cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css
 
 # 评论系统：Utterances

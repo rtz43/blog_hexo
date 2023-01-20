@@ -27,8 +27,9 @@ jobs:
         hexo generate
 
     - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@3.7.1
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
         ssh-key: ${{ secrets.HEXO_DEPLOY_PRI }}
+        repository-name: rtz43/rtz43.github.io
         BRANCH: master
         FOLDER: .

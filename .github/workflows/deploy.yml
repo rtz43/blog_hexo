@@ -32,4 +32,4 @@ jobs:
         ssh-key: ${{ secrets.HEXO_DEPLOY_PRI }}
         repository-name: rtz43/rtz43.github.io
         BRANCH: master
-        FOLDER: .
+        FOLDER: public

@@ -8,7 +8,7 @@ keywords: rtz,博客
 separator: '-'
 
 # RSS
-rss: /atom.xml
+#rss: /atom.xml
 
 # SNS config
 sns:

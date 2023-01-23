@@ -33,3 +33,13 @@ jobs:
         repository-name: rtz43/rtz43.github.io
         BRANCH: master
         FOLDER: public
+        
+    - name: Upload to upyun 🔧 
+      shell: bash
+      env: 
+        UPYUNUSER: ${{ secrets.UPYUN_USER }}
+        UPYUNKEY: ${{ secrets.UPYUN_KEY }}
+      run: |
+        ./upx login $UPYUNUSER $UPYUNUSER $UPYUNKEY
+        ./upx sync public/ / -v
+        ./upx logout

@@ -14,10 +14,6 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: '12'
-
-    - name: Install Pandoc
-      run: |
-        sudo apt-get install pandoc
         
     - name: Install and Build 🔧 
       run: |
@@ -40,6 +36,7 @@ jobs:
         UPYUNUSER: ${{ secrets.UPYUN_USER }}
         UPYUNKEY: ${{ secrets.UPYUN_KEY }}
       run: |
+        chmod +x ./upx
         ./upx login $UPYUNUSER $UPYUNUSER $UPYUNKEY
         ./upx sync public/ / -v
         ./upx logout

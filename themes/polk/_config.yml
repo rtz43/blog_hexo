@@ -19,9 +19,9 @@ sns:
 # Nav menu
 menu:
   Home: /
-  Archives: /archives
-  About: /about
-  关于: /about
+#  Archives: /archives
+  About: /about/
+#  关于: /about
 
 # MathJax Support
 mathjax:

@@ -1,4 +1,4 @@
-# Favicon
+#m Favicon
 favicon: /favicon.ico
 
 # SEO
@@ -22,3 +22,10 @@ menu:
   Archives: /archives
   About: /about
   关于: /about
+
+# MathJax Support
+mathjax:
+  enable: true
+#  cdn: https://cdn.jsdelivr.net/npm/mathjax@2.7.8/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+#  cdn: /js/MathJax.js
+  cdn: https://cdn.bootcdn.net/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js

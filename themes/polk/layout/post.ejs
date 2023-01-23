@@ -1,4 +1,9 @@
 <%- partial('_partial/header') %>
+
+<% if (theme.mathjax){ %>
+  <%- partial('mathjax') %>
+<% } %>
+
 <article class="post">
   <div class="post-title">
     <h1 class="article-title"><%= page.title %></h1>

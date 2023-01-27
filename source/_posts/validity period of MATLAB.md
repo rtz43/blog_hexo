@@ -12,7 +12,7 @@ MATLAB and Simulink Student Suite除了MATLAB软件本体，还包含了Simulink
 此外，在购买时可以选择以6美元/个的价格附加额外的工具箱，若购买后再想附加工具箱，则恢复原价16美元/个。
 
 rtz购买了MATLAB and Simulink Student Suite，另外附加了Simscape、Simscape Electrical两个额外的工具箱，共计67美元：
-![](http://dl.ruitz.cn/img/20230127231021.png)
+![](https://img.ruitz.cn/20230127234233.png)
 
 当然，需要使用Visa外币信用卡付款，不支持国内的付款方式。
 _________
@@ -26,6 +26,6 @@ _________
 然而，购买的MATLAB and Simulink Student Suite、附加的工具包，只有一年的“Software Maintenance Service”,一旦该维护期过期，则不能获得软件更新、技术支持、在线服务，也不能购买附加的工具包。
 
 当然，你可以选择Renew Software Maintenance Service，rtz在上一节购买的软件与工具箱共计67美元，续费一年维护期的价格为55美元：
-![](http://dl.ruitz.cn/img/20230127232014.png)
+![](https://img.ruitz.cn/20230127233921.png)
 
 价格快赶上买一个新的了。所以rtz决定维护期截止之后就用旧版的软件了。
